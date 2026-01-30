@@ -165,7 +165,7 @@ $template
 
 内容：${_recognizedText.value}
 """.trimIndent()
-                val apiKey = "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"
+                val apiKey = ""
                 val json = JSONObject().apply {
                     put("model", "claude-3-haiku-20240307")
                     put("max_tokens", 1024)
